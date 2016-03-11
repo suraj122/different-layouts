@@ -1,0 +1,371 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+=================
+custom stylyles
+=================
+*/
+body {
+
+	background: #293f50;
+  	color: #888;
+
+}
+
+/*
+=============
+grid
+============
+*/
+
+*,
+*:before,
+*:after {
+
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+
+}
+
+.container {
+
+	max-width: 980px;
+	margin: 22px auto 40px auto;
+	padding-right: 30px;
+	padding-left: 30px;
+
+}
+
+.grid {
+	background: #cbe2c1;
+  	background: -webkit-linear-gradient(to right, #a1d3b0, #f6f1d3);
+  	background: -moz-linear-gradient(to right, #a1d3b0, #f6f1d3);
+  	background: linear-gradient(to right, #a1d3b0, #f6f1d3);
+	margin-top: 22px;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+
+/*
+============
+header
+==============
+*/
+
+.logo {
+
+	float: left;
+	
+
+}
+
+.head-box {
+
+	float: right;
+
+}
+
+.bag-icon, 
+.tagline {
+
+	text-align: right;
+
+}
+nav, 
+.tagline {
+
+	margin-top: 15px;
+
+}
+.tagline {
+	font-family: 'Italianno', cursive;
+	font-size: 30px;
+	font-weight: 500;
+	color: #f03e1e;
+}
+
+/*
+============
+navigation
+============
+*/
+
+nav li {
+
+	display: inline-block;
+	text-transform: uppercase;
+	margin-left: 4px;
+	letter-spacing: -1.0px;
+}
+
+/*
+=============
+hero section
+=============
+*/
+.back {
+	background: #fff;
+	clear: both;
+}
+.hero {
+
+	background: url(../images/New-Cute-Spring-Clothing-Kids.jpg);
+	background-size: 100% 100%;
+	height: 400px;
+}
+
+.lil {
+
+	font-family: 'Italianno', cursive;
+	line-height: 24px;
+	position: absolute;
+	top:  450px;
+	left: 675px;
+	font-size: 60px;
+	color: #f03e1e;
+	font-weight: 700;
+
+}
+
+/*
+=========
+description
+=========
+*/
+
+
+.description {
+
+	width: 49%;
+	float: left;
+
+}
+.img {
+
+	background: url(../images/featuredshop_handmade_knits_theknitkid_003.jpg);
+	background-size: 100% 100%;
+	height: 250px;
+
+}
+.fa-heart {
+	margin-left: 3px;
+}
+
+p {
+
+	text-indent: 30px;
+	margin-top: 15px;
+
+}
+.icon .tag {
+	text-transform: uppercase;
+}
+em {
+	font-style: italic;
+}
+.tag,
+.cost {
+
+	display: inline;
+	color: #393E41;
+
+}
+/*
+========
+shoping
+========
+*/
+.shoping {
+
+	width: 48%;
+	float: right;
+
+}
+
+.row {
+
+	width: 100%;
+
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4 {
+
+	width: 45%;
+	margin: 10px;
+
+}
+
+.col-3,
+.col-4 {
+
+	margin-top: 40px;
+
+}
+.col-1{
+
+	background: url(../images/dress.jpg) no-repeat;
+	background-size: 100% 100%;
+	height: 200px;
+	display: inline-block;
+
+}
+.col-2 {
+
+	background: url(../images/t-shirt.jpg) no-repeat;
+	background-size: 100% 100%;
+	height: 200px;
+	display: inline-block;
+
+}
+.col-3 {
+
+	background: url(../images/jacket.jpg) no-repeat;
+	background-size: 100% 100%;
+	height: 200px;
+	display: inline-block;
+
+}
+.col-4 {
+
+	background: url(../images/winter.jpg) no-repeat;
+	background-size: 100% 100%;
+	height: 200px;
+	display: inline-block;
+
+}
+.cost {
+
+	position: relative;
+	top: 200px;
+
+}
+
+/*
+==========
+footer
+==========
+*/
+.footer {
+	width: 100%;
+	margin-top: 50px;
+}
+small {
+	float: left;
+}
+.nav {
+	text-align: right;
+}
+.nav li {
+	text-transform: capitalize;
+	margin-left: 4px;
+}
+
+/*
+=============
+clearfix
+=============
+*/
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+.group:after {
+	clear: both;
+}
+.group {
+	clear: both;
+	*zoom: 1;
+}
+/*
+============
+link
+===========
+*/
+
+ a {
+	color: #fff;
+	text-decoration: none;
+}
+nav a:hover {
+	color: #C7B8FF;
+}
+/*
+===========
+icon
+===========
+*/
+.fa-shopping-cart,
+.fa-star {
+
+	padding: 3px;
+	color: #fff;
+	background: #f03e1e;
+	border: 1px solid;
+	border-radius: 100%;
+
+}
+.cart {
+
+	display: inline;
+	color: #f03e1e;
+
+}
+.fa-heart {
+
+	color: #f03e1e;
+
+}
